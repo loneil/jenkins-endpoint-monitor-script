@@ -18,7 +18,13 @@ Using the Managed Scripts pugin (available at https://plugins.jenkins.io/managed
 In Managed Scripts I added the script, with an argument.
 Jenkins > Managed files > Managed script file
 
+![ManagedScripts](1.png)
+
 Then in any Jenkins job I wish to run this monitor, I add the managed script as a build step.
 
+![BuildStep](2.png)
+
 I set up multiple jobs to run at intervals to detect outages at the endpoints. 
+
+![JenkinsJobs](3.png)
 
